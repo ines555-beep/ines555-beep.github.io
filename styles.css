@@ -1,17 +1,20 @@
 body {
-  background-color: powderblue;
+  background-color: #F4EDE4;
+  font-family: Georgia, serif;
 }
 h1 {
-  color: blue;
+  color: #403C2B;
+  text-align: center;
+  font-size: 50px;
 }
 p {
-  color: red;
+  color: #595443;
 }
 /** CSS comments are written enclosed with these characters **/
 
 
 .myclass {
-  background-color: #fff7e8; /** hex codes also work for colors **/
+  background-color: #E8D4C8; /** hex codes also work for colors **/
 }
 
 #unique-id {
