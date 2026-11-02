@@ -1,11 +1,13 @@
 body {
   background-color: #F4EDE4;
   font-family: Georgia, serif;
+  padding: 30px;
 }
 h1 {
-  color: #403C2B;
+   color: #403C2B;
+  font-family: Georgia, serif;
+  font-size: 30px;
   text-align: center;
-  font-size: 50px;
 }
 p {
   color: #595443;
@@ -18,5 +20,5 @@ p {
 }
 
 #unique-id {
-  font-family: Arial, Helvetica, sans-serif; /** you can specify common font families OR link to a Google Font API **/
+  font-family: Georgia, serif; /** you can specify common font families OR link to a Google Font API **/
 }
