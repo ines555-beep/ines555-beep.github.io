@@ -28,3 +28,16 @@ img {
   object-fit: cover;
   border-radius: 110px 110px 0 0;
 }
+.interests {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.interests > div {
+  flex: 1;
+  min-width: 220px;
+  max-width: 300px;
+  text-align: center;
+}
