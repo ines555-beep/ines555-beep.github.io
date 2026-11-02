@@ -22,3 +22,9 @@ p {
 #unique-id {
   font-family: Georgia, serif; /** you can specify common font families OR link to a Google Font API **/
 }
+img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100px 100px 0 0;
+}
