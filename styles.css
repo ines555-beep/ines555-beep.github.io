@@ -1,22 +1,27 @@
 body {
-background-color: #FAF8F5;
+background-color: #F7F1EA;
   font-family: Georgia, serif;
-  padding: 30px;
+  padding: 40px 30px;
+  color: #5E4B42;
+}
+
 h1 {
-  color: #594638;
+  color: #5E4B42;
   text-align: center;
-  font-size: 50px;
+  font-size: 56px;
+  margin-bottom: 10px;
 }
 
 h2 {
-  color: #594638;
+  color: #5E4B42;
   font-family: Georgia, serif;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 h3 {
-  color: #594638;
+  color: #5E4B42;
 }
 
 p {
