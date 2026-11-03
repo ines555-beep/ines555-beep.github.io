@@ -8,16 +8,16 @@ background-color: #F7F1EA;
 h1 {
   color: #5E4B42;
   text-align: center;
-  font-size: 56px;
-  margin-bottom: 10px;
+  font-size: 64px;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: #5E4B42;
   font-family: Georgia, serif;
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -31,36 +31,41 @@ p {
   max-width: 760px;
   margin: 0 auto 20px auto;
 }
+
 /** CSS comments are written enclosed with these characters **/
 
-
 .myclass {
-  background-color: #E9DDD0; /** hex codes also work for colors **/
-  padding: 12px;
-  margin: 35px auto 40px auto;
-  max-width: 500px;
-  border: 1px solid #D9C7B7;
+  background-color: transparent; /** hex codes also work for colors **/
+  border-top: 1px solid #CDB9A8;
+  border-bottom: 1px solid #CDB9A8;
+  padding: 15px;
+  margin: 45px auto 30px;
+  max-width: 1350px;
 }
 
 #unique-id {
   font-family: Georgia, serif; /** you can specify common font families OR link to a Google Font API **/
 .interests {
-  display: flex;
-  justify-content: center;
-  gap: 28px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #EAE0D6;
 }
 
+
+
 .interests > div {
-  background-color: #FBF7F2;
-  border: 1px solid #E2D5C8;
+  background-color: #FBF8F3;
   padding: 18px;
-  flex: 0 1 340px;
-  max-width: 100%;
-  box-sizing: border-box;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(80, 60, 45, 0.08);
+  border: 1px solid #DACBBC;
+  box-shadow: 0 6px 18px rgba(80, 60, 45, 0.08);
+  min-width: 0;
 }
+
 
 .interests img {
   width: 100%;
@@ -69,9 +74,30 @@ p {
   object-fit: cover;
   border-radius: 0;
   display: block;
-  margin: 0 auto 15px auto;
-  padding: 7px;
+  padding: 8px;
   background-color: #FFFDF9;
   border: 1px solid #D9CBBE;
   box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+.interests p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+
+@media (max-width: 750px) {
+  .interests {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  body {
+    padding: 20px 15px;
+  }
 }
