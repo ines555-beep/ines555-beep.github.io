@@ -2,15 +2,25 @@ body {
 background-color: #FAF8F5;
   font-family: Georgia, serif;
   padding: 30px;
-}
 h1 {
-   color: #403C2B;
+  color: #594638;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  color: #594638;
   font-family: Georgia, serif;
   font-size: 30px;
   text-align: center;
 }
+
+h3 {
+  color: #594638;
+}
+
 p {
-  color: #595443;
+  color: #736459;
 }
 /** CSS comments are written enclosed with these characters **/
 
