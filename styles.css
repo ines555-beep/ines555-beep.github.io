@@ -44,24 +44,54 @@ p {
 
 #unique-id {
   font-family: Georgia, serif; /** you can specify common font families OR link to a Google Font API **/
-}
-img {
-  width: 280px;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 0;
-}
-
-.interests {
+.frame-row {
   display: flex;
   justify-content: center;
+  align-items: end;
   gap: 25px;
+  margin: 30px 0 40px 0;
   flex-wrap: wrap;
 }
 
+.frame {
+  border: 2px solid #D8C5B4;
+  background-color: transparent;
+}
+
+.small-frame {
+  width: 90px;
+  height: 110px;
+}
+
+.tall-frame {
+  width: 110px;
+  height: 150px;
+}
+
+/* Three cards section */
+.interests {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
 .interests > div {
-  flex: 1;
-  min-width: 280px;
-  max-width: 320px;
+  background-color: #FBF7F2;
+  border: 1px solid #E2D5C8;
+  padding: 20px;
+  width: 320px;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(80, 60, 45, 0.06);
+}
+
+.interests img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0 !important;
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 1px solid #D9CBBE;
 }
