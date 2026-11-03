@@ -26,18 +26,19 @@ p {
 
 
 .myclass {
-  background-color: #E8D4C8; /** hex codes also work for colors **/
+  background-color: #EAE2D8; /** hex codes also work for colors **/
 }
 
 #unique-id {
   font-family: Georgia, serif; /** you can specify common font families OR link to a Google Font API **/
 }
 img {
-  width: 220px;
+  width: 280px;
   height: 280px;
   object-fit: cover;
-  border-radius: 110px 110px 0 0;
+  border-radius: 0;
 }
+
 .interests {
   display: flex;
   justify-content: center;
@@ -47,7 +48,7 @@ img {
 
 .interests > div {
   flex: 1;
-  min-width: 220px;
-  max-width: 300px;
+  min-width: 280px;
+  max-width: 320px;
   text-align: center;
 }
