@@ -37,7 +37,7 @@ p {
 .myclass {
   background-color: #E9DDD0; /** hex codes also work for colors **/
   padding: 12px;
-  margin: 35px auto 50px auto;
+  margin: 35px auto 40px auto;
   max-width: 500px;
   border: 1px solid #D9C7B7;
 }
