@@ -45,6 +45,8 @@ p {
 
 #unique-id {
   font-family: Georgia, serif; /** you can specify common font families OR link to a Google Font API **/
+}
+
 .interests {
   display: grid;
   grid-template-columns: repeat(3, 280px);
